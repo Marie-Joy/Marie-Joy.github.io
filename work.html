@@ -2,63 +2,155 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>My Work | Marie Joy</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
+
+    <!-- ============================================
+         NAVBAR
+    ============================================= -->
+
     <header>
+
         <nav class="navbar">
 
-            <a href="index.html" class="logo">
+            <a
+                href="index.html"
+                class="logo"
+            >
+
                 <span>&lt;/&gt;</span>
+
                 Marie Joy
+
             </a>
 
+
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="work.html" class="active">Work</a>
-                <a href="contact.html">Contact</a>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+
+                <a href="about.html">
+                    About
+                </a>
+
+
+                <!-- WORK DROPDOWN -->
+
+                <div class="dropdown">
+
+                    <button
+                        id="dropdownBtn"
+                        class="dropdown-btn active"
+                        type="button"
+                    >
+
+                        Work
+
+                        <span id="dropdownArrow">
+                            ▼
+                        </span>
+
+                    </button>
+
+
+                    <div
+                        id="dropdownMenu"
+                        class="dropdown-menu"
+                    >
+
+                        <a href="#skills">
+                            Skills
+                        </a>
+
+                        <a href="#projects">
+                            Projects
+                        </a>
+
+                        <a href="#achievements">
+                            Achievements
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
             </div>
 
         </nav>
+
     </header>
 
 
+
+    <!-- ============================================
+         MAIN
+    ============================================= -->
+
     <main>
 
+
         <!-- PAGE HEADER -->
+
         <section class="page-header">
 
             <span class="page-icon">
                 🌷
             </span>
 
+
             <p class="section-label">
                 &lt;my_work&gt;
             </p>
+
 
             <h1>
                 My Work
             </h1>
 
+
             <p>
-                Learning today, creating something better tomorrow.
-                I am currently developing my skills and learning
-                more about web development and programming.
+                Learning today, creating something
+                better tomorrow.
             </p>
 
         </section>
 
 
-        <!-- WORK -->
-        <section class="work-section">
+
+        <!-- ============================================
+             SKILLS
+        ============================================= -->
+
+        <section
+            class="work-section"
+            id="skills"
+        >
 
             <div class="section-heading">
 
@@ -71,7 +163,8 @@
                 </h2>
 
                 <p>
-                    Skills that I am currently learning and improving.
+                    Skills that I am currently
+                    learning and improving.
                 </p>
 
             </div>
@@ -81,26 +174,30 @@
 
 
                 <!-- WEB DEVELOPMENT -->
-                <div class="work-card">
+
+                <article class="work-card">
 
                     <div class="work-icon">
                         &lt;/&gt;
                     </div>
 
+
                     <p class="work-number">
                         01
                     </p>
+
 
                     <h2>
                         Web Development
                     </h2>
 
+
                     <p>
-                        I enjoy learning how to create websites using
-                        HTML and CSS. I am continuously improving my
-                        skills in designing responsive and user-friendly
-                        web pages.
+                        I enjoy learning how to create
+                        websites using HTML, CSS,
+                        and JavaScript.
                     </p>
+
 
                     <div class="skills">
 
@@ -113,35 +210,40 @@
                         </span>
 
                         <span>
-                            Responsive Design
+                            JavaScript
                         </span>
 
                     </div>
 
-                </div>
+                </article>
+
 
 
                 <!-- PROGRAMMING -->
-                <div class="work-card">
+
+                <article class="work-card">
 
                     <div class="work-icon">
                         { }
                     </div>
 
+
                     <p class="work-number">
                         02
                     </p>
+
 
                     <h2>
                         Programming
                     </h2>
 
+
                     <p>
-                        As a Computer Science student, I continue
-                        practicing programming and learning how
-                        computer programs can be used to solve
-                        different problems.
+                        I continue practicing programming,
+                        problem solving, and understanding
+                        how programs work.
                     </p>
+
 
                     <div class="skills">
 
@@ -159,15 +261,22 @@
 
                     </div>
 
-                </div>
+                </article>
 
             </div>
 
         </section>
 
 
-        <!-- PROJECTS -->
-        <section class="work-section">
+
+        <!-- ============================================
+             PROJECTS
+        ============================================= -->
+
+        <section
+            class="work-section"
+            id="projects"
+        >
 
             <div class="section-heading">
 
@@ -175,53 +284,63 @@
                     &lt;projects&gt;
                 </p>
 
+
                 <h2>
                     My Projects 🦋
                 </h2>
 
+
                 <p>
-                    Some of the projects that I have worked on.
+                    Some of the projects that
+                    I have worked on.
                 </p>
 
             </div>
+
 
 
             <div class="work-grid">
 
 
                 <!-- PROJECT 1 -->
-                <div class="work-card project-card">
+
+                <article class="work-card project-card">
 
                     <span class="project-flower">
                         🌷
                     </span>
 
+
                     <div class="work-icon">
                         &lt;/&gt;
                     </div>
+
 
                     <p class="work-number">
                         01
                     </p>
 
+
                     <h2>
                         Personal Library System
                     </h2>
 
+
                     <p>
-                        A personal library system project created
-                        to practice my programming and web
-                        development skills.
+                        A personal library system created
+                        while practicing programming and
+                        web development.
                     </p>
+
 
                     <div class="skills">
 
                         <span>
-                            Web Development
+                            HTML
                         </span>
 
                         <span>
-                            Programming
+                            CSS
                         </span>
 
                         <span>
@@ -240,33 +359,40 @@
                         View Project →
                     </a>
 
-                </div>
+                </article>
+
 
 
                 <!-- PROJECT 2 -->
-                <div class="work-card project-card">
+
+                <article class="work-card project-card">
 
                     <span class="project-flower">
                         🦋
                     </span>
 
+
                     <div class="work-icon">
                         { }
                     </div>
+
 
                     <p class="work-number">
                         02
                     </p>
 
+
                     <h2>
                         Marie Joy Project
                     </h2>
 
+
                     <p>
-                        Another project that I created while
-                        practicing my skills in programming,
+                        Another project created while
+                        practicing programming,
                         website development, and GitHub.
                     </p>
+
 
                     <div class="skills">
 
@@ -294,14 +420,18 @@
                         View Project →
                     </a>
 
-                </div>
+                </article>
 
             </div>
 
         </section>
 
 
-        <!-- ACHIEVEMENTS -->
+
+        <!-- ============================================
+             ACHIEVEMENTS
+        ============================================= -->
+
         <section
             class="achievement-section"
             id="achievements"
@@ -313,9 +443,11 @@
                     &lt;achievements&gt;
                 </p>
 
+
                 <h2>
                     My Achievements 🌷
                 </h2>
+
 
                 <p>
                     Small progress is still progress.
@@ -324,14 +456,16 @@
             </div>
 
 
+
             <!-- CERTIFICATE -->
+
             <article class="certificate-achievement">
 
                 <div class="certificate-image">
 
                     <img
                         src="image/marie2.jpg"
-                        alt="IT Seminar Certificate of Participation"
+                        alt="Certificate"
                     >
 
                 </div>
@@ -343,21 +477,20 @@
                         Certificate
                     </span>
 
+
                     <h2>
-                        IT Seminar Certificate of Participation
+                        IT Seminar Certificate
                     </h2>
 
+
                     <p>
-                        I received a Certificate of Participation
-                        for actively participating in the IT Seminar
-                        with the topic
-                        <strong>
-                            “Ecommerce MVP + GSSO + Analytics
-                            with Django & Nuxt”
-                        </strong>
-                        held on August 24, 2026 at
-                        Tangub City Global College.
+                        A certificate received for
+                        participating in an IT seminar
+                        and gaining additional knowledge
+                        related to technology and web
+                        development.
                     </p>
+
 
                     <div class="skills">
 
@@ -366,19 +499,11 @@
                         </span>
 
                         <span>
-                            Django
+                            Technology
                         </span>
 
                         <span>
-                            Nuxt
-                        </span>
-
-                        <span>
-                            E-Commerce
-                        </span>
-
-                        <span>
-                            Analytics
+                            Learning
                         </span>
 
                     </div>
@@ -388,8 +513,11 @@
             </article>
 
 
+
             <!-- OTHER ACHIEVEMENTS -->
+
             <div class="achievement-grid">
+
 
                 <article class="achievement-card">
 
@@ -404,15 +532,15 @@
                         </h3>
 
                         <p>
-                            Currently pursuing Computer Science
-                            at Tangub City Global College and
-                            continuously learning more about
-                            technology and programming.
+                            Continuing my studies in
+                            Computer Science and improving
+                            my technology skills.
                         </p>
 
                     </div>
 
                 </article>
+
 
 
                 <article class="achievement-card">
@@ -424,17 +552,19 @@
                     <div>
 
                         <h3>
-                            Personal Portfolio Website
+                            Portfolio Website
                         </h3>
 
                         <p>
-                            Created a responsive personal portfolio
-                            website using HTML and CSS.
+                            Created a responsive personal
+                            portfolio website using HTML,
+                            CSS, and JavaScript.
                         </p>
 
                     </div>
 
                 </article>
+
 
 
                 <article class="achievement-card">
@@ -446,13 +576,13 @@
                     <div>
 
                         <h3>
-                            Personal Library System
+                            JavaScript DOM Activity
                         </h3>
 
                         <p>
-                            Created a personal library system
-                            while developing my programming
-                            and web development skills.
+                            Implemented a functional
+                            navbar dropdown using
+                            Vanilla JavaScript.
                         </p>
 
                     </div>
@@ -464,12 +594,15 @@
         </section>
 
 
-        <!-- FUTURE GOAL -->
+
+        <!-- FUTURE -->
+
         <section class="future-box">
 
             <span>
                 ♡
             </span>
+
 
             <div>
 
@@ -477,13 +610,15 @@
                     &lt;future_goal&gt;
                 </p>
 
+
                 <h2>
                     Still learning. Still growing.
                 </h2>
 
+
                 <p>
-                    My goal is to continue improving my skills
-                    and create more useful and meaningful
+                    My goal is to continue improving
+                    my skills and create more useful
                     projects in the future.
                 </p>
 
@@ -493,6 +628,11 @@
 
     </main>
 
+
+
+    <!-- ============================================
+         FOOTER
+    ============================================= -->
 
     <footer>
 
@@ -506,5 +646,12 @@
 
     </footer>
 
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

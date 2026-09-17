@@ -12,6 +12,10 @@
 
 <body>
 
+    <!-- ============================================
+         NAVBAR
+    ============================================= -->
+
     <header>
         <nav class="navbar">
 
@@ -21,30 +25,91 @@
             </a>
 
             <div class="nav-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="work.html">Work</a>
-                <a href="contact.html">Contact</a>
+
+                <a href="index.html" class="active">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+
+                <!-- WORK DROPDOWN -->
+                <div class="dropdown">
+
+                    <button
+                        id="dropdownBtn"
+                        class="dropdown-btn"
+                        type="button"
+                    >
+                        Work
+
+                        <span id="dropdownArrow">
+                            ▼
+                        </span>
+                    </button>
+
+
+                    <div
+                        id="dropdownMenu"
+                        class="dropdown-menu"
+                    >
+
+                        <a href="work.html#skills">
+                            Skills
+                        </a>
+
+                        <a href="work.html#projects">
+                            Projects
+                        </a>
+
+                        <a href="work.html#achievements">
+                            Achievements
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
             </div>
 
         </nav>
     </header>
 
 
+    <!-- ============================================
+         MAIN CONTENT
+    ============================================= -->
+
     <main class="home">
 
         <!-- DECORATIONS -->
-        <span class="floating butterfly butterfly-one">🦋</span>
-        <span class="floating butterfly butterfly-two">🦋</span>
 
-        <span class="floating tulip tulip-one">🌷</span>
-        <span class="floating tulip tulip-two">🌷</span>
+        <span class="floating butterfly butterfly-one">
+            🦋
+        </span>
 
-        <span class="floating heart heart-one">♡</span>
-        <span class="floating heart heart-two">♡</span>
+        <span class="floating butterfly butterfly-two">
+            🦋
+        </span>
+
+        <span class="floating tulip tulip-one">
+            🌷
+        </span>
+
+        <span class="floating tulip tulip-two">
+            🌷
+        </span>
 
 
         <!-- HERO -->
+
         <section class="hero">
 
             <div class="hero-text">
@@ -63,19 +128,25 @@
                 </h2>
 
                 <p class="hero-description">
-                    I am a Computer Science student who is interested
-                    in technology, programming, web development, and
-                    learning how computer systems work.
+                    I am a Computer Science student interested
+                    in technology, programming, web development,
+                    and continuously improving my skills.
                 </p>
 
 
                 <div class="hero-buttons">
 
-                    <a href="about.html" class="btn primary-btn">
+                    <a
+                        href="about.html"
+                        class="btn primary-btn"
+                    >
                         About Me
                     </a>
 
-                    <a href="contact.html" class="btn outline-btn">
+                    <a
+                        href="contact.html"
+                        class="btn outline-btn"
+                    >
                         Contact Me
                     </a>
 
@@ -84,8 +155,12 @@
 
                 <div class="coding-box">
 
-                    <span class="code-keyword">const</span>
+                    <span class="code-keyword">
+                        const
+                    </span>
+
                     dream =
+
                     <span class="code-text">
                         "Learn. Code. Create."
                     </span>;
@@ -95,7 +170,8 @@
             </div>
 
 
-            <!-- PROFILE -->
+            <!-- PROFILE IMAGE -->
+
             <div class="hero-image">
 
                 <div class="profile-wrapper">
@@ -106,12 +182,17 @@
 
                     <img
                         src="image/marie1.jpg"
-                        alt="Marie Joy C. Sebusana"
+                        alt="Marie Joy"
                     >
 
                     <div class="profile-tag">
-                        <span>01</span>
+
+                        <span>
+                            01
+                        </span>
+
                         aspiring developer
+
                     </div>
 
                 </div>
@@ -122,9 +203,12 @@
 
 
         <!-- SHORT ABOUT -->
+
         <section class="mini-about">
 
-            <span class="mini-flower">🌷</span>
+            <span class="mini-flower">
+                🌷
+            </span>
 
             <p class="section-label">
                 &lt;about_me&gt;
@@ -137,12 +221,15 @@
             <p>
                 Hi! I am
                 <strong>Marie Joy C. Sebusana</strong>,
-                a Computer Science student from Jimenez,
-                Misamis Occidental. I enjoy learning more
-                about programming, technology, and web development.
+                a Computer Science student who enjoys
+                learning programming, technology, and
+                web development.
             </p>
 
-            <a href="about.html" class="text-link">
+            <a
+                href="about.html"
+                class="text-link"
+            >
                 Read more about me →
             </a>
 
@@ -150,6 +237,10 @@
 
     </main>
 
+
+    <!-- ============================================
+         FOOTER
+    ============================================= -->
 
     <footer>
 
@@ -163,5 +254,11 @@
 
     </footer>
 
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
